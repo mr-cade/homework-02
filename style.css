@@ -1,0 +1,26 @@
+* {
+    font-family: 'Sarabun', sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+    
+} 
+
+@media screen and (max-width: 768px) {
+    #profpic {
+        max-width: 200px;
+        position: absolute;
+    }   
+   #aboutCard {
+       margin-left: 205px
+    }
+} 
+
+@media screen and (max-width: 640px) {
+    #aboutCard {
+        margin-left: 0
+    }
+    #profpic {
+        position: relative;
+    }
+} 
