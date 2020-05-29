@@ -3,7 +3,18 @@
 }
 
 @media screen and (max-width: 980px) {
-    
+    #workHistory {
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #hobbies {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
 } 
 
 @media screen and (max-width: 768px) {
@@ -14,13 +25,25 @@
    #aboutCard {
        margin-left: 205px
     }
+    #workHistory {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #hobbies {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
 } 
 
 @media screen and (max-width: 640px) {
     #aboutCard {
-        margin-left: 0
+        margin-left: 205
     }
     #profpic {
-        position: relative;
+        position: absolute;
     }
 } 
