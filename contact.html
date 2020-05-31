@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
     <title>Contact Cade</title>
 </head>
-<body>
+<body class="flex-column">
   <header>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <span class="navbar-text bg-dark h1 text-white">Cade Petersen</span>
@@ -20,23 +20,23 @@
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item last-nav">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
     </nav>
 </header>
-  <section class="container-fluid p-3" style="background-color: lightgrey;">
+  <section class="container-fluid p-3 min-vh-100" style="background-color: lightgrey;">
     <form class="card col-md-7">
       <div class="form-group">
         <label for="Name">Name</label>
-        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
       </div>
       <div class="form-group">
         <label for="email">Email</label>
-        <input type="email" class="form-control" id="exampleInputPassword1">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <input type="email" class="form-control" id="exampleInputEmail1">
+        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
       </div>
       <label>Message</label>
       <div>
@@ -49,6 +49,6 @@
   </section>
   <footer class="text-center bg-dark pt-3 pb-3 col-md-12">
     <p class="text-white">&copy; Copyright</p>
-</footer>
+  </footer>
 </body>
 </html>

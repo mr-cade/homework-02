@@ -1,24 +1,24 @@
 * {
     font-family: 'Sarabun', sans-serif;
 }
-/* #profpic {
-    max-width: 200px;
-    margin-top: 25px;
-}   */
-@media screen and (max-width: 980px) {
-    
+
+/* navbar item separating lines */
+.nav-item {
+    border-right-width: 1px;
+    border-color: lightgray;
+    border-right-style: solid;
+}
+.last-nav {
+    border-style: none;
+}
+
+/* formatting based on screen size */
+@media screen and (max-width: 980px) {  
     
 } 
 
 @media screen and (max-width: 768px) {
     
-   #aboutCard {
-       
-    }
-    #profpic {
-        max-width: 200px;
-        margin-top: 25px;
-    }  
 } 
 
 @media screen and (max-width: 640px) {
