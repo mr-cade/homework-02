@@ -2,25 +2,37 @@
     font-family: 'Sarabun', sans-serif;
 }
 
-/* navbar item separating lines */
-.nav-item {
-    border-right-width: 1px;
-    border-color: lightgray;
-    border-right-style: solid;
-}
-.last-nav {
-    border-style: none;
-}
-
 /* formatting based on screen size */
 @media screen and (max-width: 980px) {  
-    
+    .nav-item {
+        border-right-width: 1px;
+        border-color: lightgray;
+        border-right-style: solid;
+    }
+    .last-nav {
+        border-style: none;
+    }   
 } 
 
 @media screen and (max-width: 768px) {
-    
+    .nav-item {
+        border-right-width: 1px;
+        border-color: lightgray;
+        border-right-style: solid;
+    }
+    .last-nav {
+        border-style: none;
+    }
 } 
 
 @media screen and (max-width: 640px) {
-
+    .nav-item {
+        border-right-style: none;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: lightgray;
+    }
+    .last-nav {
+        border-style: none;
+    }
 }
