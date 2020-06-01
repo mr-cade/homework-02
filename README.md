@@ -3,12 +3,12 @@
 This website is all about me. It is built primarily using Bootstrap styling. It is responsive to screen and window sizing.  
 
 
-## Directions
+## About
 
 The website has three pages. 
 
 * About me
-   * A short page describing my background
+   * A short page describing my background and hobbies
 * Portfolio
    * A page showcasing links to the other work in my portfolio.
 * Contact
