@@ -36,6 +36,8 @@
 @media screen and (max-width: 640px) {
     .portpic {
       max-width: 300px;  
+      height: auto;
       align-content: center;
+        
     }
 }
