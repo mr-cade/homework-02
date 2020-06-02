@@ -34,16 +34,8 @@
 } 
 
 @media screen and (max-width: 640px) {
-    .nav-item {
-        border-right-style: none;
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
-        border-color: lightgray;
-    }
-    .last-nav {
-        border-style: none;
-    }
     .portpic {
-        
+      max-width: 300px;  
+      align-content: center;
     }
 }
